@@ -210,7 +210,6 @@ If you find this app useful, consider supporting its development:
 
 - **Repository**: [github.com/teocci/android-md-pdf](https://github.com/teocci/android-md-pdf)
 - **Issues**: [Bug Reports & Feature Requests](https://github.com/teocci/android-md-pdf/issues)
-- **Documentation**: [Wiki](https://github.com/teocci/android-md-pdf/wiki)
 
 ## 📈 Roadmap
 
