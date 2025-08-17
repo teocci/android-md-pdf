@@ -1,0 +1,120 @@
+{
+  "designSystem": {
+    "colors": {
+      "colorPrimary": "#FFB066",          // Pastel orange (new primary color)
+      "colorPrimaryVariant": "#E69A54",   // Slightly darker pastel orange
+      "colorOnPrimary": "#FFFFFF",        // Text/icon color on primary
+
+      "colorSecondary": "#6C7AE0",        // Optional secondary accent
+      "colorOnSecondary": "#FFFFFF",
+
+      "colorSurface": "#FFFFFF",          // Card/panel background
+      "colorOnSurface": "#1A1A1A",
+
+      "colorBackground": "#F0F4F8",       // App background
+      "colorOnBackground": "#1A1A1A",
+
+      "colorError": "#B00020",            // MDC default
+      "colorOnError": "#FFFFFF",
+
+      "colorDisabled": "#CCCCCC",         // For disabled toggles/fields
+      "dividerColor": "#D1DBE6",          // For outlines/dividers
+      "shadowColor": "#1A1A1A"            // Shadow for elevation
+    },
+
+    "typography": {
+      "fontFamily": "sans-serif",
+      "h1": {
+        "fontSize": "24sp",
+        "fontWeight": "600",
+        "letterSpacing": "0sp"
+      },
+      "h2": {
+        "fontSize": "18sp",
+        "fontWeight": "500",
+        "letterSpacing": "0.15sp"
+      },
+      "body1": {
+        "fontSize": "16sp",
+        "fontWeight": "400",
+        "letterSpacing": "0.5sp"
+      },
+      "button": {
+        "fontSize": "16sp",
+        "fontWeight": "500",
+        "letterSpacing": "1.25sp"
+      },
+      "caption": {
+        "fontSize": "14sp",
+        "fontWeight": "400",
+        "letterSpacing": "0.4sp"
+      }
+    },
+
+    "shapes": {
+      "small": "4dp",
+      "medium": "8dp",
+      "large": "12dp",
+      "buttonRadius": "6dp",
+      "cardRadius": "12dp"
+    },
+
+    "elevation": {
+      "card": "4dp",
+      "button": "2dp",
+      "bottomBar": "8dp"
+    },
+
+    "spacing": {
+      "spacingXSmall": "4dp",
+      "spacingSmall": "8dp",
+      "spacingMedium": "16dp",
+      "spacingLarge": "24dp"
+    },
+
+    "components": {
+      "button": {
+        "style": "Widget.MaterialComponents.Button",
+        "backgroundColor": "@color/colorPrimary",
+        "textColor": "@color/colorOnPrimary",
+        "cornerRadius": "6dp",
+        "elevation": "2dp"
+      },
+      "switch": {
+        "thumbColorChecked": "@color/colorPrimary",
+        "thumbColorUnchecked": "@color/colorDisabled",
+        "trackColorChecked": "#FFF3E0",
+        "trackColorUnchecked": "#E0E0E0"
+      },
+      "card": {
+        "backgroundColor": "@color/colorSurface",
+        "cornerRadius": "12dp",
+        "elevation": "4dp",
+        "padding": "24dp"
+      },
+      "tab": {
+        "selectedTextColor": "@color/colorPrimary",
+        "unselectedTextColor": "@color/colorOnBackground",
+        "indicatorColor": "@color/colorPrimary",
+        "textStyle": "button"
+      },
+      "radioButton": {
+        "activeColor": "@color/colorPrimary",
+        "inactiveColor": "@color/dividerColor"
+      }
+    },
+
+    "layout": {
+      "maxWidth": "640dp",
+      "alignment": "center",
+      "containerPadding": "24dp",
+      "gridColumns": 12,
+      "gridGutter": "16dp"
+    },
+
+    "animations": {
+      "defaultEasing": "FastOutSlowInInterpolator",
+      "transitionDuration": "300ms"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "primary": "#F4A261",
+    "onPrimary": "#1B1B1B",
+    "secondary": "#4D4D4D",
+    "onSecondary": "#FFFFFF",
+    "surface": "#FFFFFF",
+    "onSurface": "#1B1B1B",
+    "surfaceVariant": "#F2F2F2",
+    "outline": "#D0D0D0"
+  },
+  "typography": {
+    "titleFont": "Montserrat",
+    "bodyFont": "Roboto",
+    "monoFont": "JetBrainsMono"
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32
+  },
+  "radius": {
+    "sm": 8,
+    "md": 12,
+    "lg": 16
+  }
+}
